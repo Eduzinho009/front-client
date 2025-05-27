@@ -1,0 +1,35 @@
+.wrapLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; /* Ajustado para ocupar toda a largura */
+    height: 100vh;
+    flex-wrap: wrap;
+    background: black;
+}
+
+.wrapImages {
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 1) 80%), 
+                url(./images/fundo.jpg);
+    background-position: left; /* Move o foco da imagem para a esquerda */
+    background-size: 100% 100%;
+    position: absolute; /* Define a posição absoluta para mover */
+    left: 0; /* Alinha completamente à esquerda */
+}
+
+
+.wrapFrom {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color:aliceblue;
+    text-align: center;
+    flex-direction: column;
+    border: 2px rgb(79, 79, 255) solid;
+    margin-left: 50vw;
+}
+
+
